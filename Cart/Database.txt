@@ -1,0 +1,4 @@
+create database add_to_cart;
+use add_to_cart;
+create table order_manager(id int auto_increment primary key ,Full_Name varchar(100),Phone_No int,Address varchar(100) ,Pay_Mode varchar(100));
+create table user_orders(id int auto_increment primary key,Order_Id int ,Item_Name varchar(200),Price int,Quantity int);
